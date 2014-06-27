@@ -1,0 +1,8 @@
+html{
+    font: 62.5% Corbel,sans-serif;
+    background-image: url('../images/background-pattern-cat.png');
+}
+h1{
+    font-size: 4.5rem;
+    color: #00909b;
+}

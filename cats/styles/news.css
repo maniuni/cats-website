@@ -1,0 +1,77 @@
+html{
+    font: 62.5% Corbel,sans-serif;
+    background-image: url('../images/background-pattern-cat.png');
+}
+body{
+    
+}
+#main-content{
+    width:550px;
+    margin:30px auto;
+    position: relative;
+}
+.post{
+    background-color: rgba(0,255,0,0.03);
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-bottom:20px;
+    padding: 20px 30px 50px;
+    margin-top:20px;
+}
+.post-heading{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #00909b;
+    margin-bottom: 10px;
+}
+    .post-heading a{
+       text-decoration: none;
+       color: #00909b;
+    }
+.post-details{
+    font-size: 1.2rem;
+    height:20px;
+    margin-bottom:10px;
+}
+.post-details-left{
+    float: left;
+}
+.post-details-right{
+    float: right;
+}
+.content{
+    font-size: 1.5rem;
+    clear:both;
+    margin-bottom: 25px;
+}
+.attachment-post-thumbnail{
+    float:left;
+    margin-right: 10px;
+}
+.read-more{
+    font-size:1.5rem;
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+    display: block;
+    float:right;
+    margin-bottom: 20px;
+}
+.read-more:visited{
+    color:darkred;
+}
+#older-posts a,#newer-posts a{
+    font-size:1.5rem;
+    color:darkred;
+    text-decoration: none;
+}
+#older-posts{
+    margin-top: 20px;
+    position: absolute;
+    left:235px;
+}
+#newer-posts{
+    margin-top: 20px;
+    position: absolute;
+    right:235px;
+}

@@ -1,0 +1,66 @@
+/*
+Theme Name: Cats
+Description: A cute website for some cute kitties.
+Author: Irina Antonova
+Version: 1.0
+Tags: cute, kitty, cat, colorful
+*/
+
+body{
+    background-color: #fff6f0;
+    background-image: url('./images/background-pattern-cat.png');
+}
+	.wrapper{
+            width: 900px;
+            margin: 10px auto;
+	}
+		img{
+                    display: block;
+                    margin: 15px auto;
+		}
+		ul{
+                    text-align: center;
+                    margin: 30px 0;
+		}
+			li{
+                            list-style-type: none;
+                            display: inline-block;
+                            margin-right: 40px;
+                            vertical-align: top;
+			}
+				li:last-child{
+                                    margin-right:0;
+				}
+				a{
+                                    background: url('./images/Patch-menu.png') no-repeat;
+                                    display:inline-block;
+                                    text-decoration:none;
+                                    width: 134px;
+                                    height: 134px;
+				}
+                                        a:after { 
+                                            content: attr(title);
+                                            font: 14px/14px Corbel, sans-serif;
+                                            text-shadow: none;
+                                            color: #7a3225;
+                                            display: block;
+                                            width: 100px;
+                                            margin-top: 5px;
+                                            margin-left:15px;
+                                        }
+					a:active{
+                                            background: url('./images/Patch-menu_active.png') no-repeat;
+                                            display:inline-block;
+                                            text-decoration:none;
+                                            width: 134px;
+                                            height: 134px;
+					}				
+					a>span{
+                                            font: italic bold 24px/35px Segoe UI, sans-serif;
+                                            text-shadow: 0 0 10px black;
+                                            color:#fff6f0;
+                                            display: block;
+                                            width: 100px;
+                                            margin: 15px 0 0 15px;
+					}				
+                                        
